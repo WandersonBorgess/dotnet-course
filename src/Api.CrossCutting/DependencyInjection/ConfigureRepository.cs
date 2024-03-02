@@ -12,7 +12,6 @@ namespace Api.CrossCutting.DependencyInjection
         public static void ConfigureDependenciesRepository(IServiceCollection serviceCollection) {
             serviceCollection.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
             serviceCollection.AddScoped<IUserRepository, UserImplementation>();
-            serviceCollection.AddScoped<IExerciseRepository, ExerciseImplementation>();
             serviceCollection.AddDbContext<MyContext>(
                 options => options.UseMySql("Server=localhost;Port=3306;DataBase=dbAPI;Uid=root;Pwd=A12345")
             );

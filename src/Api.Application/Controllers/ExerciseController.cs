@@ -49,5 +49,38 @@ namespace Api.Application.Controllers {
                 return StatusCode((int)HttpStatusCode.InternalServerError, error.Message);
             }
         }
+    
+        [Authorize("Bearer")]
+        [HttpPut]
+        public async Task<ActionResult> Put ([FromBody] ExerciseDtoUpdate exercise) {
+            if(!ModelState.IsValid) {
+                return BadRequest(ModelState);
+            }
+
+            try {
+                var result = await _service.Put(exercise);
+                if(result != null) {
+                    return Ok (result);
+                } else {
+                    return BadRequest();
+                }
+            } catch (ArgumentException error) {
+                return StatusCode((int)HttpStatusCode.InternalServerError, error.Message);
+            }
+        }
+
+        [Authorize("Bearer")]
+        [HttpDelete ("{id}")]
+        public async Task<ActionResult> Delete (Guid id) {
+            if(!ModelState.IsValid) {
+                return BadRequest(ModelState);
+            }
+
+            try {
+                return Ok(await _service.Delete(id));
+            } catch (ArgumentException error) {
+                return StatusCode((int) HttpStatusCode.InternalServerError, error.Message);
+            }
+        }
     }
 }

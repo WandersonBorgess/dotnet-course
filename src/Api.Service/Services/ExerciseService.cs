@@ -39,7 +39,7 @@ namespace Api.Service.Services {
         public async Task<ExerciseDtoUpdateResult> Put(ExerciseDtoUpdate exercise) {
             var model = _mapper.Map<ExerciseModel>(exercise);
             var entity = _mapper.Map<ExerciseEntity>(model);
-            var result = await _repository.InsertAsync(entity);
+            var result = await _repository.UpdateAsync(entity);
 
             return _mapper.Map<ExerciseDtoUpdateResult>(result);
         }

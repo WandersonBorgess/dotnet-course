@@ -12,6 +12,6 @@ namespace Api.Domain.Dtos.Exercise {
 
         public string Series { get; set; }
 
-        public DateTime CreateAt { get; set; }
+        public DateTime UpdateAt { get; set; }
     }
 }

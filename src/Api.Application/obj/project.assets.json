@@ -5778,11 +5778,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.Application\\application.csproj",
+      "projectUniqueName": "c:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.Application\\application.csproj",
       "projectName": "application",
-      "projectPath": "C:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.Application\\application.csproj",
+      "projectPath": "c:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.Application\\application.csproj",
       "packagesPath": "C:\\Users\\worker_dev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.Application\\obj\\",
+      "outputPath": "c:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\worker_dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5796,14 +5796,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
-              "projectPath": "C:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj"
+            "c:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+              "projectPath": "c:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj"
             },
-            "C:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
+            "c:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "c:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.Domain\\Domain.csproj"
             },
-            "C:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.Service\\Service.csproj"
+            "c:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.Service\\Service.csproj": {
+              "projectPath": "c:\\Users\\worker_dev\\Desktop\\course\\curso_api_netcore\\src\\Api.Service\\Service.csproj"
             }
           }
         }
